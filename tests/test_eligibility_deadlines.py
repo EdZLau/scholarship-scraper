@@ -24,8 +24,8 @@ def scholarship(**overrides):
 @pytest.fixture
 def eligibility_profile(monkeypatch):
     profile = {
-        "gender": "Female",
-        "ethnicity": ["Hispanic/Latino"],
+  "gender": "Nonbinary",
+"ethnicity": ["Pacific Islander"],
         "gpa": 3.7,
         "major": "Computer Science",
         "classification": "Junior (Transfer)",
